@@ -11,9 +11,15 @@ public class ParkingTicket {
         this.id=id;
     }
 
-    @Getter
     ParkingSpot parkingSpot;
     Date startTime;
     String id;
+
+    public ParkingSpot getParkingSpot() {
+        return parkingSpot;
+    }
+
+
+
 
 }
